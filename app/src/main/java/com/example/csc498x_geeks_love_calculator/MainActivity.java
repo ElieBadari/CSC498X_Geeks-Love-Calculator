@@ -14,8 +14,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Spinner spinner = (Spinner) findViewById(R.id.spinner);
-        String[] currencies = new String[]{"", "Java", "HTML","Python",""};
+        String[] currencies = new String[]{"", "JavaScript", "HTML","CSS","Swift","C++","C#","TypeScript"};
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, currencies);
         spinner.setAdapter(adapter);
     }
+
 }
