@@ -67,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
         img.setTranslationY(-1500);
 
+    //hey jonni
 
         int rand = random.nextInt(100) + 1;
         String message = full_name + " has a compatibility of " + rand + "%";
